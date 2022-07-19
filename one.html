@@ -1,10 +1,462 @@
 <html>
-<title>
-FIRST NEXT PAGE
-</title>
+<head>
+
+  <meta name="Magesh" content="Learn HTML">
+  <meta name="HTML Walkthrough." content="This is a learning or reference document for myself and those who are new to HTML.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <title> HTML Basics </title>
+</head>
 
 <body>
-<h1>Another Hello!</h1>
+  <header>
+    <h1>HTML!</h1>
+  </header>
 
+  <div>
+    <h2>
+      HELLO TO ALL...
+    </h2>
+    <p>
+      This is a web page to go through all the basic to advanced HTML elements.
+      Maybe a reference page to look up whenever needed for a particular tag.
+    </p>
+  </div>
+  <div>
+    <p>
+      Before getting started, I would alert you that starting with only HTML makes restriction not to use CSS in the first place...
+      So this page might not be an actual page like others...
+    </p>
+    <p>This web page doesn't look good, with only HTML users can only be able to see these texts everything aligned to left. 
+      However we need to make this more presentable to the users, That's where CSS comes to play. CSS takes care of the design aspects of the web page
+    HTML only defines the data which is placed in the page in a browser understandable format.
+    Adding CSS in an HTML makes it look aesthetically pleasing.
+      By the end of this web page, we can enable CSS and look how this not so neatly arranged text becomes a great web page...
+      Wait for it...
+    </p>
+</div>
+
+    <div>
+      <p> Before Getting into design aspects, I'll go through all the tags and elements to look after in HTML.
+      </p>
+    </div>
+<!-- Html-->
+      <div>
+        <h3>
+          &#60html&#62
+        </h3>
+        <p>
+          This is the first tag which wraps all the web page. This consists of two major tags.
+          Head and Body. Which classifies the data in the web page for their specific functions.
+        </p>
+      </div>
+
+<!-- Head-->
+      <div>
+        <h3>
+           &#60head&#62
+        </h3>
+        <p>
+          Head element is a container for metadata (data about data) and is placed between the html tag and the body tag.
+          Metadata is data about the HTML document. Metadata typically define the document title, character set, styles, scripts, and other meta information.
+          Head tag contatins title tag which is the name displayed in the new tab when the page loads.
+          And other tags like base,link,meta,style,script etc...
+        </p>
+      </div>
+
+<!-- Tags inside a head tag.-->
+      <div>
+        <h3>
+          Tags placed inside &#60head&#62
+        </h3>
+        <table class="HeadTable">
+          <thead>
+          <tr>
+          <th>Tag</th>
+          <th>Purpose</th>
+          </tr>
+          </thead>
+          <tbody>
+            <!-- base tag-->
+          <tr>
+          <td>&#60base&#62</td>
+          <td>Specifies a default URL and target for all links on a page</td>
+          </tr>
+
+
+          <!-- style tag-->
+          <tr>
+          <td>&#60style&#62</td>
+          <td>Adds style information to a page(CSS).</td>
+          </tr>
+          
+          <!-- link tag-->
+          <tr>
+          <td>&#60link&#62</td>
+          <td>Links to an external style sheet</td>
+          </tr>
+          
+          <!--  title tag-->
+          <tr>
+          <td>&#60title&#62</td>
+          <td>Represents the title of the overall HTML document</td>
+          </tr>
+
+          <!--  meta tag-->
+          <tr>
+          <td>&#60meta&#62</td>
+          <td>Meta tag defines metadata about an HTML document.Metadata is used by browsers, search engines, and other web services.</td>
+          </tr>
+          
+          <!--  script tag-->
+          <tr>
+          <td>&#60script&#62</td>
+          <td>Script tag is used to embed a client-side script (JavaScript).</td>
+          </tr>
+          
+          
+
+          
+          </tbody>
+          </table>
+      </div>
+
+
+<!-- Body -->
+      <div>
+        <h3>
+          &#60body&#62
+        </h3>
+        <p>
+          Body tag contains the data which is displayed in the browser window, which has the text, hyperlinks to other pages etc.
+          And other tags used inside body tag are h1,h2,h3,p,span,article etc...
+        </p>
+      </div>
+    
+
+
+<!-- Tags inside body tag-->
+    
+    <div>
+    <h3>
+      Tags placed inside &#60body&#62
+    </h3>
+    <table class="BodyTable">
+
+      <thead>
+      <tr>
+      <th>Tag</th>
+      <th>Purpose</th>
+      </tr>
+      </thead>
+      
+      <tbody>
+
+      <!--a tag-->
+      <tr>
+      <td>&#60a&#62</td>
+      <td>Defines a hyperlink, which is used to link from one page to another.</td>
+      </tr>
+
+      <!-- Heading tag-->
+      <tr>
+      <td>&#60h1&#62 &#60h2&#62 &#60h3&#62 &#60h4&#62 &#60h5&#62 &#60h6&#62 </td>
+      <td>To define HTML headings, Subtitles of some content.</td>
+      </tr>
+      
+      <!-- article tag-->
+      <tr>
+      <td>&#60article&#62</td>
+      <td>Specifies independent, self-contained content.</td>
+      </tr>
+
+      <!-- blockquote tag-->
+      <tr>
+      <td>&#60blockquote&#62</td>
+      <td>Specifies a section that is quoted from another source.</td>
+      </tr>
+
+      <!--  br tag-->
+      <tr>
+      <td>&#60br&#62</td>
+      <td>Inserts a single line break.</td>
+      </tr>
+
+      <!-- button tag-->
+      <tr>
+      <td>&#60button&#62</td>
+      <td>Defines a clickable button.</td>
+      </tr>
+
+
+      <!--  b tag-->
+      <tr>
+      <td>&#60b&#62</td>
+      <td>Makes text bold enclosed by the tag.</td>
+      </tr>
+
+      <!--  data tag-->
+      <tr>
+      <td>&#60data&#62</td>
+      <td>This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.</td>
+      </tr>
+
+
+      <!--  datalist tag-->
+      <tr>
+      <td>&#60datalist&#62</td>
+      <td>Specifies a list of pre-defined options for an input element.tag is used to provide an "autocomplete" feature for input elements. Users will see a drop-down list of pre-defined options as they input data.</td>
+      </tr>
+
+      <!--del tag-->
+      <tr>
+      <td>&#60del&#62</td>
+      <td>Strike a line through text enclosed within the tag.</td>
+      </tr>
+
+
+      <!-- form tag-->
+      <tr>
+      <td>&#60form&#62</td>
+      <td>Used to create an HTML form for user input. It also contains one or more elements such as input, textarea, button, option, select, label etc</td>
+      </tr>
+
+      <!-- img tag-->
+      <tr>
+      <td>&#60img&#62</td>
+      <td>Used to embed an image in an HTML page.</td>
+      </tr>
+
+      <!--  picture tag-->
+      <tr>
+      <td>&#60picture&#62</td>
+      <td>More flexibility while specifying image resources. Working with multiple images.</td>
+      </tr>
+
+
+      <!--  input tag-->
+      <tr>
+      <td>&#60input&#62</td>
+      <td>Most important form element. Specifies an input  field where the user can enter data.</td>
+      </tr>
+
+      <!--  main tag-->
+      <tr>
+      <td>&#60main&#62</td>
+      <td>Contents inside main tag should be unique, which is not repeated across documents such as sidebars, header, footer etc.</td>
+      </tr>
+
+
+      <!--  nav tag-->
+      <tr>
+      <td>&#60nav&#62</td>
+      <td>Defines a set of navigation links.</td>
+      </tr>
+
+      <!--  ol tag-->
+      <tr>
+      <td>&#60ol&#62</td>
+      <td>Ordered list of data includes alphabetical or numerical.</td>
+      </tr>
+
+      <!--  ul tag-->
+      <tr>
+      <td>&#60ul&#62</td>
+      <td>Unordered list of data with bullet points.</td>
+      </tr>
+
+
+      <!--  p tag-->
+      <tr>
+      <td>&#60p&#62</td>
+      <td>Defines a single paragraph. Browsers automatically add single blank line before and after each p element.</td>
+      </tr>
+      
+      <!--  output tag-->
+      <tr>
+      <td>&#60output&#62</td>
+      <td>Used to display output after some arithmetic computation.</td>
+      </tr>
+
+
+      <!--  progress tag-->
+      <tr>
+      <td>&#60progress&#62</td>
+      <td>Represents the completion progress of a task. Can be used in conjunction with JavaScript to display the progress of a task.</td>
+      </tr>
+      
+      <!--  s tag-->
+      <tr>
+      <td>&#60s&#62</td>
+      <td>Text with a strike in the middle. To display no longer correct, accurate or relevant data.</td>
+      </tr>
+
+
+      <!--  section tag-->
+      <tr>
+      <td>&#60section&#62</td>
+      <td>We can define sections in a document and design accordingly.</td>
+      </tr>
+      
+
+      <!--  source tag-->
+      <tr>
+      <td>&#60source&#62</td>
+      <td>Used to specify multiple media sources for media elements such as audio, video, picture etc.</td>
+      </tr>
+
+
+      <!--  span tag-->
+      <tr>
+      <td>&#60span&#62</td>
+      <td>It is a inline container used to markup a part of a text. Manipulated with JS or styled with CSS using the clas or id attribute.</td>
+      </tr>
+      
+
+      <!--  div tag-->
+      <tr>
+      <td>&#60div&#62</td>
+      <td>Defines a secion or a section of a document. The div tag is styled using the class or id attribute. By default browsers insert line break before and after div element.</td>
+      </tr>
+
+      <!-- sub tag-->
+      <tr>
+      <td>&#60sub&#62</td>
+      <td>To display subscript to a data.</td>
+      </tr>
+      
+
+      <!-- sup tag-->
+      <tr>
+      <td>&#60sup&#62</td>
+      <td>To display superscript to a data.</td>
+      </tr>
+
+      <!--  details tag-->
+      <tr>
+      <td>&#60details&#62</td>
+      <td>Used to display data only when the summary of the details is clicked.</td>
+      </tr>
+      
+
+      <!-- summary tag-->
+      <tr>
+      <td>&#60summary&#62</td>
+      <td>Used as a heading for details tag, which then clicked displays data associated with it.</td>
+      </tr>
+
+      <!--  table tag-->
+      <tr>
+      <td>&#60table&#62</td>
+      <td>Construct table in HTML. It also consists of other tags such as thead, tbody, tr, th, td etc.</td>
+      </tr>
+
+      
+
+      </tbody>
+      </table>
+  </div>
+  
+  <!-- HTML 5 Features...-->
+  <div>
+    <p> The above tags represented the previous version of HTML5. Current version supports other tags which are useful in multimedia applications.</p>
+    <p> The tags associated with HTML5 are: audio,video(embbed audio and video file in a page),svg(vector graphics),header, footer(explicit tags to classify them without using the div tags), nav, progress, placeholder in place of input field, email attribute in input, database storage SQL databases, article, section, meter etc.</p>
+     
+    
+
+    <p> These are the important aspects of HTML elements/ HTML tags, we need to focus on one more important topic, attributes of HTML elements.</p>
+  </div>
+
+
+  <!-- attributes -->
+  <div>
+    <p>
+      Html attributes provides additional information about elements, usually comes with name value pair like name = "value".
+      Example: 1.&#60a href="www.google.com"&#62Visit Google&#60/a&#62 href in anchor tag is an attribute which specifies the url to point to.
+    </p>
+    <p>
+      2. &#60img src="image.jpg" width="500" height="600" &#62, here src attribute specifies the path to the image to be displayed.
+      An important point to note about img src attribute: There are two ways to specify the URL in the src attribute:
+      1. Absolute URL - Links to exetrnal image that is hosted on another website.
+      2. Relative URL - Links to an image that is hosted within the website. URL does not include the domain name.
+    </p>
+    <p>
+      Attributes plays important role when it comes to designing a particular web page.Classes and Id is used to specify a particlar HTML element.
+      The class attribute is used to point to a class name in a style sheet. And also used by JavaScript to access and manipulate elements with specific class name.
+      The HTML id attribute used to specify a unique id foa an HTML element. Since it is unique to one single element, no two element must have same id in an HTML document.
+      These two are the basic attributes in HTML tags, there are many more out there which is used to style, select, format etc.
+      Attributes types include: Global Attributes( which can be used with all HTML elements), Event Attributes( which triggers only in window object: inside body), 
+      Form events ( actions inside HTML form), Keyboard events, Mouse events, Drag events, Media events, Clipboard events.
+    </p>
+  </div>
+
+  <!--responsive design-->
+    <div>
+      <h2>Responsive Web Design</h2>
+      <p>
+        Responsive web design makes web pages look good on all devices for different screen sizes and viewports.
+        This is accomplished using CSS properties such as width, max-width, media queries, viewport units etc.
+        There are many CSS frameworks which makes the most of the work simple by providing class names with pre designed layouts.
+        Popular CSS framework is Bootstrap. It makes use of the predefined styles in the file by adding the Bootstrap reference inside the head element.
+      </p>
+    </div>
+
+    <!--css-->
+    <div>
+      <p>
+      These covers the overview of the HTML basics, ending this page without any design aspect makes this HTML very boring, So I would like to complete this web page by adding 
+      some topics in CSS and Javascript which in conjunction makes a complete web page, instead of separating HTML alone.
+      </p>
+      <h2>
+        CSS 
+      </h2>
+      <p>
+        CSS is a document which is used to style an HTML document, describes how HTML elements should be displayed.
+        A CSS rule contains a selector and a declaration block. A selectors points to the HTML element, and declaration block has
+        one or more declarations separated by semicolons ( color:blue ), multiple CSS declarations are separated with semicolons, and declarations are surrounded by curly braces.
+        Selectors are used to find the HTML elements, they are; Simple selectors, Combinatior selectors( based on relationship), Pseudo-class selectors( based on certain state ), 
+        Pseudo-elements selector( based on part of an element ), Attribute selectors( based on attribute or attribute value).
+
+      </p>
+      <h3>Box Model</h3>
+      <p>
+          All HTML elements can be considered as boxes, used to design and layout.
+          It can be imagined as a box that wraps around every HTML element. It consists of 
+          margins, borders, padding, and the actual content. Padding and margin are transparent whereas border can be formatted and styled.
+          The CSS Grid Layout offers a grid-based layout system, with rows and columns.
+          A grid layout consists of a parent element and one or more child elements.
+          Flexible Box Layout Module, makes it easier to design flexible responsive layout.
+
+      </p>
+      <p>
+        I am going to end this CSS overview upto this, as there are more and more topics which is used to make the web more attracive using CSS, I will plan a separate CSS page which focusses on CSS alone.
+        Moving forward I'll share a short glimpse of what JavaScript is used for and how JS adds interactivity to a website.
+      </p>
+
+
+    </div>
+
+    <!--Javascript-->
+    <div>
+      <h2>JavaScript</h2>
+      <p>
+        JavaScript adds behaviour to web pages.For example: show or hide information with a click of a button, changing the color of a button when mouse hovers, slide through a carousel of images on the homepage,
+        Zooming in or Zooming out on an image, Displaying animations etc. The browser creates a Document Object Model of the page, with this model JS makes the dynamic HTML possible by getting access to the elements, attributes, css styles, and can add or remove HTML events.
+        Javascript also has jQuery library which access the attributes and elements.
+        Javascript Frameworks like Angular, React is used to make Single Page Applications.
+      </p>
+    </div>
+
+    <!--adding css to this html-->
+    <div>
+      <p> This is a simple starter CSS design with 50 lines of CSS, managed to make some decent looks with the content, will definetely improve web design as this is my
+        first step... Looking forward to more learnings...
+      </p>
+    </div>
+
+  <h2>Click this <a href = "index.html"> link </a> to see only HTML.</h2>
+  
 </body>
+
+
 </html>

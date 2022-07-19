@@ -1,0 +1,48 @@
+*{
+    background-color: azure;
+}
+p
+{
+    
+    margin: auto;
+    width: 48%;
+    background-color: azure;
+    color: cornflowerblue;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    padding: 15px;
+}
+table {
+    margin: auto;
+  width: 50%;
+padding:15px;
+background-color:#66FFFF;
+border-collapse:collapse;border-width:1vh;
+border-color:#00CCCC;
+border-style:ridge;
+color:#666699;
+}
+table, td, th {
+border-width:1vh;
+border-color:#00CCCC;
+border-style:ridge;
+padding:3px;
+}
+table thead {
+background-color:#66FFFF;
+}
+h1,h2,h3
+{
+    text-align:center;
+    align-items:center;
+    color:darkslateblue;
+}
+h2
+{
+text-align: center;
+align-items: center;
+}
+header
+{
+    text-align: center;
+}
